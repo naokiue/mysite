@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 header {
   height: 3em;
   background-color: black;
@@ -29,13 +33,88 @@ header {
   background-color: gray;
 }
 
+.main {
+  margin: auto 3%;
+}
+
+.name {
+  margin-top: 1.25em;
+}
+
 .about {
+  display: flex;
+}
+
+.about-text {
+  flex: 1;
+  font-size: 1.5rem;
+}
+
+.about img {
+  width: 30%;
+}
+
+.kent {
+  display: flex;
+  margin-top: 5%;
+}
+
+.kent img {
+  width: 60%;
+}
+
+.kent-text {
+  flex: 1;
+}
+
+.kyushu {
+  display: flex;
+  margin-top: 5%;
+}
+
+.kyushu img {
+  width: 60%;
+}
+
+.kyushu-text {
+  flex: 1;
+}
+
+.edu-text {
+  margin: auto 5%;
+}
+
+h3 {
+  text-align: center;
+}
+
+footer {
+  height: 3em;
+  background-color: black;
+}
+
+.footer-navigation {
+  height: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  gap: 2em;
+}
+
+.footer-list-element {
+  height: 3em;
   display: flex;
   align-items: center;
 }
 
-.about-text {
+.footer-navigation a {
+  text-decoration: none;
+  color: white;
 }
 
-#image-of-myself {
+.footer-list-element:hover {
+  background-color: gray;
 }
