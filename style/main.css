@@ -81,8 +81,16 @@ header {
   margin: auto 5%;
 }
 
+.work-container {
+  margin-top: 5%;
+}
+
 h3 {
   text-align: center;
+}
+
+.accelerator-list {
+  padding-left: 15%;
 }
 
 footer {
