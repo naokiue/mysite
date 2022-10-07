@@ -3,23 +3,23 @@ body {
 }
 
 header {
-  height: 3em;
+  height: 5em;
   background-color: black;
 }
 
 .header-navigation {
-  height: 3em;
+  height: 5em;
   display: flex;
   justify-content: center;
   align-items: center;
   list-style-type: none;
   padding: 0;
   margin: 0;
-  gap: 2em;
+  gap: 3em;
 }
 
 .header-list-element {
-  height: 3em;
+  height: 5em;
   display: flex;
   align-items: center;
 }
@@ -27,6 +27,7 @@ header {
 .header-navigation a {
   text-decoration: none;
   color: white;
+  font-size: 2em;
 }
 
 .header-list-element:hover {
@@ -34,24 +35,33 @@ header {
 }
 
 .main {
-  margin: auto 3%;
-}
-
-.name {
-  margin-top: 1.25em;
+  margin: auto 10%;
+  background-color: rgba(130, 130, 130, 0.245);
 }
 
 .about {
   display: flex;
+  padding: 5% 5% 10% 5%;
+}
+
+.about-text-container {
+  flex: 1;
 }
 
 .about-text {
-  flex: 1;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .about img {
   width: 30%;
+}
+
+.content {
+  padding: 0 5% 10% 5%;
+}
+
+.section {
+  margin: auto 5%;
 }
 
 .kent {
@@ -60,7 +70,7 @@ header {
 }
 
 .kent img {
-  width: 60%;
+  width: 50%;
 }
 
 .kent-text {
@@ -73,7 +83,7 @@ header {
 }
 
 .kyushu img {
-  width: 60%;
+  width: 50%;
 }
 
 .kyushu-text {
