@@ -41,7 +41,7 @@ header {
 
 .about {
   display: flex;
-  padding: 5% 5% 10% 5%;
+  padding: 5%;
 }
 
 .about-text-container {
@@ -64,33 +64,20 @@ header {
   margin: auto 5%;
 }
 
-.kent {
+.edu-container {
   display: flex;
   margin-top: 5%;
 }
 
-.kent img {
+.edu-container img {
   width: 50%;
 }
 
-.kent-text {
+.edu-text-container {
   flex: 1;
 }
 
-.kyushu {
-  display: flex;
-  margin-top: 5%;
-}
-
-.kyushu img {
-  width: 50%;
-}
-
-.kyushu-text {
-  flex: 1;
-}
-
-.edu-text {
+.content-text {
   margin: auto 5%;
 }
 
